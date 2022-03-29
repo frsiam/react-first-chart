@@ -22,7 +22,7 @@ const SpecialChart = () => {
     }, [])
     return (
         <div className='mt-16 bg-teal-200 p-3 m-6'>
-            <BarChart width={1000} height={400} data={phones}>
+            <BarChart width={800} height={400} data={phones}>
                 <Bar dataKey="value" fill="#8884d8" />
                 <XAxis dataKey={'name'}></XAxis>
                 <YAxis></YAxis>
