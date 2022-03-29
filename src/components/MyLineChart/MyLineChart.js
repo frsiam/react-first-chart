@@ -48,6 +48,7 @@ const MyLineChart = () => {
       ];
     return (
         <div className='bg-orange-100 mt-10 mx-6'>
+          <h1 className='text-2xl bg-slate-300 my-7 p-6 font-serif font-semibold rounded-md'>Siample Line Chart</h1>
             <LineChart width={800} height={500} data={data}>
                 <Line dataKey={"uv"}></Line>
                 <Line dataKey={"pv"}></Line>
