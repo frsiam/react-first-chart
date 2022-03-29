@@ -7,13 +7,15 @@ const SpringAnimation = () => {
         to: { opacity: 1 }, 
         from: { opacity: 0 },
         reset: true,
-        delay: 100,
+        delay: 250,
         reverse: flip,
         onRest: () => set(!flip)
     })
     return (
         <div className='mt-12'>
-            <animated.div style={props}>I will fade in</animated.div>
+            <animated.div style={props}>
+                <span className='text-3xl bg-rose-500 p-5 font-semibold font-mono rounded-lg text-lime-100'>Hey this is spring animation</span>
+            </animated.div>
         </div>
     );
 };
